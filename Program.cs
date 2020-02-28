@@ -7,8 +7,11 @@ namespace CSpractice1
         static void Main(string[] args)
         {
             Console.WriteLine("Enter number 1, then number 2");
+            
             double number1 = Convert.ToDouble(Console.ReadLine());
+            
             double number2 = Convert.ToDouble(Console.ReadLine());
+            
             Console.WriteLine($"Multiplycation of number 1 and number 2 is {Multiply(number1, number2)}");
         }
 
